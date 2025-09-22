@@ -1,0 +1,10 @@
+body {
+    font-family: 'Inter', sans-serif;
+    @apply bg-white text-gray-800;
+}
+
+.gradient-text {
+    background-image: linear-gradient(90deg, #3B82F6, #1D4ED8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
